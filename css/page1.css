@@ -1,0 +1,132 @@
+.box{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.web_developer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px;
+    background: #6F6594;
+    color: white;
+}
+.web_developer_text{
+    width: 30%;
+    height: 150px;
+    text-align: left;
+    color: white;
+}
+h1{
+    width: 100%;
+}
+.web_developer_img{
+    width: 35%;
+    height: 275px;
+}
+.web_developer_second{
+    background: #9769AD;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 135px;
+    color: white;
+    gap: 35px;
+}
+h2{
+    width: 100%;
+}
+.web_developer_second_img{
+    width: 40%;
+    height: 240px;
+}
+.web_history{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #A6A9C8;
+    padding: 10px;
+}
+.section_item{
+    width: 30%;
+    height: 350px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+padding: 10px;
+background: #F2F5F7;
+}
+.web_history_h2{
+    color: #505D68;
+    font-size: 35px;
+}
+.web_directions{
+    width: 100%;
+    background: #D3D9E9;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web_directions_items{
+    width: 60%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.web_directions_item{
+    width: 90%;
+    height: 110px;
+    background: white;
+    display: flex;
+padding: 15px;
+    flex-wrap: wrap;
+}
+.web_directions_h1{
+    color: white;
+}
+p{
+    font-size: 23px;
+}
+.web_directions p{
+    font-size: 17px;
+}
+li{
+    font-size: 19px;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+#go-top {
+    position: fixed; 
+    bottom: 25px; 
+    right: 10px; 
+    cursor:pointer; 
+    display:none;
+    width: 150px;
+    height: 50px;
+    background: #c0c0c0;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+  #go-top:hover {
+    background: #333; }
+  

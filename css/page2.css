@@ -1,0 +1,262 @@
+.stats{
+    width: 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: #442D3F;
+}
+.stats_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+}
+.stats_box{
+    width: 28%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.precent{
+    width: 60%;
+    height: 200px;
+    background: white;
+    color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    height: 1000px;
+    background: #9793C6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.statistic{
+    width: 100%;
+    height: 350px;
+    background: #716DA6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.statistic>h3{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.statistic>p{
+    width: 100%;
+    text-align: center;
+}
+.stat_main{
+    width: 23%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats_number{
+    font-size: 30px;
+}
+.stat_img{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+}
+.stat_img_1{
+    background: url();
+}
+.stat_img_2{
+    background: url();
+}
+.stat_img_3{
+    background: url();
+}
+.stat_img_4{
+    background: url();
+}
+.workers{
+    width: 22%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.portrait{
+    width: 50%;
+    height: 120px;
+    background: white;
+    border-radius: 100%;
+}
+main>h2{
+    width: 100%;
+    text-align: center;
+}
+.stats_name{
+    font-size: 23px;
+}
+.portrait_img{
+    border-radius: 50%;
+}
+
+section{
+    width: 100%;
+    height: 1750px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(209, 206, 237, 1);
+    justify-content: center;
+    gap: 15px;
+}
+.section_items{
+width: 80%;
+height: 1700px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+padding: 20px;
+
+}
+.section_item{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+}
+section>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section_item_2{
+    height: 70px;
+}
+circle-progress::part(value) {
+	stroke-width: 6px;
+	stroke: hsl(100, 100%, 60%);
+	stroke-dasharray: 0.6 3;
+}
+circle-progress::part(circle){
+	stroke-width: 6px;
+	stroke: #ddd;
+	stroke-dasharray: 0.6 3;
+	stroke-dashoffset: 1.6;
+}
+circle-progress::part(text) {
+	font-family: "Gotham Rounded Light";
+	fill: hsl(100, 81%, 55%);
+	font-size: 26px;
+}
+circle-progress::part(base)
+{
+width: 200px; height: auto;
+}
+.direction_1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 2086px;
+
+}
+.direction_2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 2397px;
+
+}
+.direction_3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 2588px;
+
+}
+.direction_4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 2870px;
+
+}
+.direction_5{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 3173px;
+
+}
+.direction_6{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 1200px;
+    top: 3425px;
+
+} 
+ 
+ 
